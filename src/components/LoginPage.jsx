@@ -53,7 +53,7 @@ const LoginPage = () => {
       </AppBar>
 
 
-      {/* Login Content */}
+      {/* Login Content .*/}
       <Box className="login-page">
         <Box className="login-image"></Box>
         <Box className="login-container">

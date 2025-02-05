@@ -41,7 +41,7 @@ const SignupPage = () => {
       return;
     }
 
-    // Validate required fields
+    // Validate required fields.
     if (!email || !password) {
       setError('Email and password are required.');
       return;

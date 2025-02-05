@@ -15,7 +15,7 @@
   scrollbar-width: none; /* Firefox */
 }
 
-/* Optional: Add smooth scrolling .*/
+/* Optional: Add smooth scrolling ..*/
 html {
   scroll-behavior: smooth;
 }

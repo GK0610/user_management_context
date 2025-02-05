@@ -14,7 +14,7 @@ export const UserProvider = ({ children }) => {
     // For now, we'll keep this empty or untill we have some localstorage or cloud based storage like MongoDb.
   }, []);
 
-  // Login function (uses email and password)
+  // Login function (uses email and password.)
   const login = (email, password) => {
     const user = users.find((user) => user.email === email && user.password === password);
     if (user) {

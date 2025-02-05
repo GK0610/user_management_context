@@ -50,7 +50,7 @@ const NavBar = () => {
   );
 };
 
-// Protected Route Component
+// Protected Route Component.
 const ProtectedRoute = ({ element }) => {
   const { isLoggedIn } = useContext(UserContext);
   return isLoggedIn ? element : <Navigate to="/login" />;

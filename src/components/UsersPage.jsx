@@ -21,7 +21,7 @@ const UsersPage = () => {
   const [users, setUsers] = useState([]); // Store list of users
   const [selectedUser, setSelectedUser] = useState(null); // Store selected user for the drawer
   const [drawerOpen, setDrawerOpen] = useState(false); // Manage drawer state
-  const [currentPage, setCurrentPage] = useState(1); // Manage pagination
+  const [currentPage, setCurrentPage] = useState(1); // Manage pagination.
   const navigate = useNavigate();
 
   // Check if the user is logged in
